@@ -4,7 +4,7 @@ ul {
     margin: -10;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(52, 91, 99);
+    background-color: #345B63;
   }
   
   li {
@@ -24,10 +24,13 @@ ul {
   }
 
   li .active {
-      background-color: rgb(168, 57, 168);
+    background-color: #112031;
+}
+  .active {
+    background-color: #112031;
   }
 
   body {
-    background: rgb(243, 228, 199);
+   background-color: #D4ECDD;
   }
 
