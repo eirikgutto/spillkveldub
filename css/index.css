@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("../src/uno.png");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 150px;
+    color: rgb(52, 163, 61);
+    text-shadow: 4px 4px 0 black;
+}
+
+.media {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 4px 4px 0 black;
+    line-height: 70px;
+}
+
+.media img {
+    position: absolute;
+    height: 10%;
+    left: 38%;
+}
+
+.media a {
+    text-decoration: none;
+    color: rgb(52, 163, 61);
+}
