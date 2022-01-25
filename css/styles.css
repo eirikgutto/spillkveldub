@@ -1,5 +1,40 @@
 
 ul {
+
+  list-style-type: none;
+  margin: -10;
+  padding: 0;
+  overflow: hidden;
+  background-color: #345B63;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: rgb(168, 57, 168);
+}
+
+li .active {
+  background-color: #112031;
+}
+.active {
+  background-color: #112031;
+}
+
+body {
+ background-color: #D4ECDD;
+}
+=======
     list-style-type: none;
     margin: -10;
     padding: 0;
@@ -33,4 +68,5 @@ ul {
   body {
    background-color: #D4ECDD;
   }
+
 
